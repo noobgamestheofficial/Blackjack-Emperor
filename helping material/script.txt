@@ -1,0 +1,466 @@
+contentType: 
+0 for text
+1 for images
+2 for buttons
+3 for text inputs
+4 for chat boxes
+
+
+buttonFunction:
+0 for closing game
+1 for chaging pages
+2 go to a page with a blackjack game
+3 for external links
+4 saves the player name
+
+
+
+
+
+
+
+
+"......So are you willing to take the risk?"
+["No, I don't even know what I am getting into", "Yes, ..... let's see where this goes"]
+
+no-> Lady Luck:  "Wise choice, it is always better not to take risks, especially when your eternal soul is at stake. Because you had such a shitty life, in your next I will make your reincarnation something more joyful and happy, like a cute domestic dog."
+
+
+---Good End, A dog's Life---
+
+yes-> Lady Luck: 
+"Ohh, that is a really bold decision, it has been a long time since someone was crazy enough to risk it all."
+"I always liked the crazy bold types, the ones going all-in or nothing"
+"I will give you a gift to help you in your conquest, it will become your power and your trial since the only that you were good at in life was the game called blackjack, that will be your gift."
+"And remember, I smile upon you".
+{and with that she kisses you, and everything around you fades away.}
+
+
+{you open your eyes, with a feeling that an enormous amount of time had passed, maybe hours, maybe eyons}
+
+You: ".....What is happening? What did I just agree to? And most importantly, who even am I?....."
+
+{You try to recollect your memories, trying to make heads or tails of your situation, when you can finally answer the last question} 
+"Ohh that is right.I am...."
+
+{You remember the sexy lady before mentioning something about blackjack, the names sounds very familiar, but when you try to recall the memory, your head starts pounding like a motherfucker, so much so, that feel your chest tighten as you become unable to breathe}
+
+You: "....fuck that, whatever situation I am in can wait, for now, I need to clear my head"
+
+{You look around the room to search for anything with some entertainment value when suddenly you feel something in your pockets.}
+
+You: "...Nice, I found $50 in my pocket, I have some money now and nowhere to spend it."
+
+{looking closer at the banknote, there seems to be something written in}
+
+Lady Luck's Message: "Don't lose this."
+
+You: "How did this get into my pocket?"
+
+{with one more unanswered question to worry about, you keep looking around the room for anything to do.}
+
+{The only things you can see with any entertainment value are a laptop and a phone.}
+[pick up the laptop|pick up the phone] 
+
+You:  "Nice, nothing like some porn to set my head straight."
+
+While clicking on different porn links you enter into stipchat.xxx, a website where you can chat with strippers, and pay them to strip
+
+You enter Tricky's chatroom, she seems to be fully clothed.
+You: "Mmm....., looks like the show is about to start"
+
+You start getting comfortable, ready to pull out your dick when you suddenly notice the chat that is going on in the chat section.
+
+[random guy 1]   "Fuck that is the fifth guy she robbed today, and she hasn't shown us even some tits yet."
+
+[random guy 2]  "Yeah, wtf, this is not why I am here."
+
+[random guy 3]  "Strip, or get the fuck out of this website, cunt."
+
+[random guy 4]  "I am out of here..."
+
+[Tricksy]  "Sorry guys, you know my rules, ;), I only strip when someone beats me in blackjack"
+  "cheap losers not welcome."
+
+[random guy 1]  "You are cheating, there is no way you are not cheating, I am going to report you to the mods."
+
+[Tricksy]  "No I am not, you guys are just not kissed by luck"
+"To play send minimum 20$ ;)"
+
+You: "There it is again, blackjack, it seems that anyway I turn I can't seem to get away from that game....."
+	".....fuck it, its make or break, I am all-in."
+
+[You]  "Ok I am game, let's play"
+
+[random guy 3]   "Don't bother dude, she is cheating, go spend your money on someone that will actually stip, and not just scam you."
+
+[Tricksy]  "alright, cutey, &hearts; let's start."
+
+[Win|Lose]
+
+
+
+-> Lose
+{You suddenly fade into darkness, your sense of time and space vanish, as if they were never there, in fact all of your senses seem to not be presented}
+
+Lady Luck:
+	"So you have successfully lost my gift to you."
+
+{you suddenly see the lady in full BDSM gear, however, instead of feeling aroused, you feel a sense of sheer terror at her sight}
+
+Lady Luck:
+	"Well, you know what happens to those who fail, as per our contract, your eternal soul will be manhandled and abused by hell's succubi"
+	"In case you didn't know succubi, are a special type of devil, that like to get quite a bit rapey."
+
+{you stare in a mixture of disbelief and horror, gathering all your might together you manage to squeak out a single sentence}
+
+You:
+    "....I didn't....agree to this...."
+
+{she stares at you, eyes wild open}
+
+Lady Luck:
+	"I made the risks very clear to you, I told you that only a crazy person would accept the deal, that your eternal soul would be at stake."
+	"I believe your exact words were "Yes, ..... let's see where this goes"."
+	"Anyway, have fun getting butt fucked for all eternity"
+
+--Bad End, Eternal Sexual Torture--
+
+
+
+
+-> Win
+
+{Tricksy stares directly into the screen, you can see her eyes visibly shift in hue from brown to purple, a strange color}
+{Suddenly an orgasmic feeling hits you, it seems a hundred times better than anything you can remember, although you can't remember much, you know for sure that this isn't normal, it feels like your very soul is orgasming like it is growing in size like it is absorbing something}
+
+{You sneak a peek at your screen, only to see tricksy breathing heavily, intensely looking at her screen, like she is waiting for something}
+{A sudden realization hits you, You just ate Tricksy's soul}
+{You have no idea how or why, but you are sure that whatever happened, the end result is that Tricksy is now part of you}
+{Although you are pretty sure of this, you decide to test it out, more for the fun it}
+
+
+[You] "Tricksy I want you to...."
+
+[Play with your tits| Bring out a dildo and play with it| Finger your pussy| Show us your ass....|jerkoff]
+
+{you finish masturbating to Tricksy's hot show}
+
+[Tricksy] "Anything else master?"
+
+[random guy 2] "So hot, show us your ass."
+
+[random guy 1] "You are a lucky bastard ${player's name}"
+
+[You] "no that will be all for today".
+
+{You think about it, and you figure that it might be handy to have an extra pair of hands, plus it would be nice to actually fuck a nice pussy for a change}
+
+{You take our your phone and check your current location}
+
+You: "looks like I live Los Angeles, not too bad, but looks like rent is going to be a bitch"
+
+[You] Tricksy this is my location, I want you to come here as soon as possible.
+
+[random guy 3] "${player name} tell her to choke on a dildo, she only listens to you man"
+
+[Tricksy] "Master I live in Detroit, it would take me as much as 10 hours to be there."
+
+{Well it's already late at night, if you tell her to come now, you will have a pleasant surprise tomorrow morning.}
+
+[You]  "Alright, I will be waiting for you."
+
+{with that you shut your computer and drift off to sleep}
+
+
+
+
+
+
+
+Lady Luck: 
+	".........."
+	".........."
+	".........."
+	"I see you made it past the first day, congratulations!"
+
+{You see the Lady Luck smiling at you.}
+
+You:
+	"..thanks I guess.."
+
+Lady Luck:
+	"No need to be shy, you did really well today, most people lose their soul after the first trial.....but sooner or later everyone loses."
+
+You:
+	"...did you just say... 'their soul'?"
+
+Lady Luck:
+	"Of course silly, that's what you agreed to."
+
+{A flash of memories suddently hits you as if they were repressed and finally violently let loose.}
+
+{You remember bits and pieces of your previous life.}
+
+{You didn't have that much going on for you, all you owned was a simple house, nothing too fancy.}
+
+{But You were heavily in debt.}
+
+{Debt owed to some shady people.}
+
+{Debt owed by falling in love with blackjack....}
+
+{....but constantly losing each and every game.}
+
+{Until, those shady people had enough one day, and sent you on a very long diving trip.}
+
+{You remember very clearly the conversation you previously had with the lady.}
+
+
+
+{
+You: 
+	"Is anyone there?"
+
+Lady Luck:
+	"Hey there cutie, glad you are finally awake."
+
+You:
+	"Who are you? and where am I?"
+
+Lady Luck:
+	"Don't you know that asking too many questions is really unattractive?"
+
+You:
+	"........"
+
+Lady Luck:
+	"....Well silly, I am the lady of luck, Lady Luck as most people call me."
+	"And you sir. have just died."
+	"Quite a terrible death as well."
+
+You:
+	"................"
+	"........I see..."
+
+Lady Luck:
+	"It was a really terrible death indeed."
+	"We haven't had someone with such a horrible life for quite some time."
+
+You:
+	"...so what now?...do I go to heaven or hell? Or is it reincarnation?"
+
+Lady Luck:
+	"Bingo, reincarnation it is."
+	"Mmm, let's see....."
+	"....looks like, you are going to be reincarnated as a dog."
+	"Not too bad beats being reincarnated as an insect."
+	"Those guys come back to us almost as soon as we send them."
+	"Sometimes I wonder why we even bother."
+
+You:
+	"So.....a dog?"
+	"Is there any chance I can be reincarnated as a human?"
+
+Lady Luck:
+	"Well there is this one thing, I wouldn't recommend it though."
+	"It is quite risky."
+
+You:
+	"I am all ears."
+
+Lady Luck:
+	"It involves a gamble, you will be reincarnated as the creature you wish for and given a tremendous amount of power."
+	"Enough power to take over the cosmos, however, you will be betting your eternal soul if you fail."
+
+You:
+	"............."
+	"......that's a lot to take in."
+
+Lady Luck:
+	"No matter, it is an option that everyone has, and I have to make sure you are aware of it."
+	"......So are you willing to take the risk?"
+
+{While struggling to take in all the information dump you just received, there is one thought that is in the fore-front of your mind.}
+
+{No matter what happens, you are never going to be a loser again, even if it is at the cost of your soul.}
+
+You:
+	"........."
+	"Yes, ..... let's see where this goes."
+
+Lady Luck: 
+	"Ohh, that is a really bold decision, it has been a long time since someone was crazy enough to risk it all."
+	"I always liked the crazy bold types, the ones going all-in or nothing."
+	"I will give you a gift to help you in your conquest, it will become your power and your trial since the only that you were good at in life was the game called blackjack, that will 	be your gift."
+	"And remember, I smile upon you."
+}
+
+
+Lady Luck:
+	"I see you have regained your memories."
+
+You:
+	".......yes....."
+
+Lady Luck:
+	"..............."
+
+You:
+	"...so, my eternal soul is at stake if I fail...., what does that mean?"
+
+{Lady Luck looks at you with a sadistic smile.}
+
+Lady Luck:
+	"It boils down to, don't lose all your money or you will spend the rest of eternity tortured by demons." 
+
+You: 
+	"....But blackjack is a game of chance, I am bound to lose some times. How long do I have to keep winning for?"
+
+Lady Luck:
+	"Everyone loses eventually......sometimes in their first day, their first week, their first year."
+	"There was this one guy who managed to use his power to keep winning for 10 million years, by the end he had an entire galaxy under his command, but he too lost eventually."
+
+You:
+	"...........I am fucked aren't I......"
+
+Lady Luck:
+	"You agreed to all this."
+	".................."
+	"Cheer up, I happen to have 2 presents for you."
+
+{You stare at her with distrust.}
+
+	"First of all, let me teach you a way in which you can use the emperor's power to more easily help you win blackjack games."
+	"In any given round of a blackjack game, you can use your Emperor Points to increase or decrease your card count, if you still have EPs left."
+	"This should help you a lot in tight spots or difficult games, but remember to use your points carefully, as they are difficult to gain."
+
+You:
+	"I see, this should give me more of a fighting chance."
+
+Lady Luck:
+	"Because you were such a good boy today, your second gift will be the pleasure of experiencing a blowjob directly form a godess, lucky you."
+
+{You vividly dream of Lady Luck sucking your dick, getting more and more aroused....}
+{....until you finally cum so hard, that you manage to wake yourself up, only to discover that you jizzed your briefs.}
+
+
+You:
+	"Damn that felt great, almost makes you forget all of the shit I am in."
+	".......Well, better go put on a new pair."
+
+
+{As you are putting on a new pair of boxers you hear a knock on the door.}
+
+You:
+	"That must be Tricksy, time to go have some fun with her."
+
+{You open the door expecting Tricksy to be there.}
+
+{Instead, you are surprised by the sight of another woman, who seems to be a bit angry.}
+
+Carley:
+	"Well, you finally answered the door."
+	"I have been knocking on your door for the last week."
+
+You:
+	"....How may I help you?"
+
+Carley:
+	"Don't play games with me, your rent has been due for a week, everyone else has paid but you."
+	"I am going to give you another week, and then call the police department to have you evicted."
+
+{Figuring out that this must be your landlady, you decide to play it cool.}
+
+You:
+	"There is no need for that, I was simply not in the house last week if you want I can give you my phone number so that you can more easily reach me next time."
+
+Carley/Landlady:
+	"Ok we can do that, but for now I need you to pay your rent for this month."
+
+You:
+	"Can you just remind me exactly how much was the rent?"
+
+Carley/Landlady:
+	"$2500, now do you have that much, or do I need to get the LAPD involved?"
+
+You:
+	".....I am afraid I don't have that much on me, but if you give me a couple of days I am sure I can scrap it together."
+
+{She looks at you with a cold fury.}
+
+Carley/Landlady:
+	"You have one week to the day, a day later will find you in a cell."
+
+You:
+	"Ok, don't worry about it, I will have the money by then."
+
+Carley/Landlady:
+	"And one more thing, this is an apartment I am renting for one person only, any more than that, and I will have to raise my prices."
+
+You:
+	"What do you mean, I am living here alone."
+
+Carley/Landlady:
+	"Then who is she?"
+
+{You stretch your neck behind the doorframe to see that she is pointing a finger directly at Tricksy, who seems to have been there for some time now.}
+
+You:
+	"Ohh, she is just a friend here on a quick visit."
+
+Carley/Landlady:
+	"I hope so for your sake."
+You:
+	"Ok, this is my phone number, call me whenever you need to."
+
+{Carley takes your phone number, and calls it directly, confirming that it is authentic.}
+{With that  she storms out of the apartment building.}
+
+You:
+	"Well, it just keeps getting better and better."
+	"Hey Tricksy, how was your flight? Have you been here a long time?"
+
+Tricksy:
+	"It was nice, I couldn't wait to see you."
+	"I was waiting outside your door for a few hours now, I didn't want to wake you up if you were sleeping."
+
+You:
+	"Well that's a good girl, anyway come in."
+
+{You lead Tricksy inside the apartment.}
+
+You:
+	"Should we have some fun?"
+
+Tricksy:
+	"Whatever you want master."
+
+[Fondle her tits| Have her give you a Titjob.| Tell her to suck your dick.| Fuck her.| Fuck her ass.|.......Cum.]
+
+{After cumming all over Tricksy you decide to let her have some much-deserved sleep.}
+{In the mean-time you decide to take a bus to your nearest casino, yesterday was lucky to just find someone who wanted to play blackjack online, but to find more blackjack dealers you figure you should go where they work.}
+
+{You arrive at the casino and head straight for the blackjack tables, luckily there seems to be 2 dealers, and both of them have no one currently playing.}
+
+You:
+	"Alright, I will have to clean them both out."
+
+[Go to the table with the girl| go to the table with the guy.]
+
+You:
+	"From now on, I want you both to send me $300 a week."
+
+Girl:
+	"As you wish."
+Guy:
+	"Certainly."
+
+
+{Take the girl to a private room| Take the guy to a private room| Take them both to a private room.| go back to your appartment}
+
+.
+.
+.
+.
+--End of the current version, congratulations on making it this far, keep an eye out for future releases to come soon--

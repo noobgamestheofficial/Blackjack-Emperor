@@ -1,0 +1,488 @@
+/*Used to center and set the font size for the whole game*/
+* {
+  margin: 0;
+  font-size: 1.1em;
+  align-items: center;
+  text-align: center;
+}
+/*Used to style the background of all game components*/
+body {
+  background: black;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+/*Used to style the images within the game*/
+img {
+  max-width: 80%;
+  max-height: 80vh;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+/* img {
+  max-width: 75vw;
+  max-height: 60vh;
+} */
+
+/* Used to style the default text*/
+.styling-text {
+  color: white;
+  text-align: left;
+  margin: 20px;
+  white-space: pre-wrap;
+}
+
+/* Used to style the text-input box*/
+.styling-textInput {
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Used to style Buttons in game, and what happens when you hover over them*/
+.styling-buttons {
+  display: block;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 0.8em;
+  background: white;
+  border-radius: 5px;
+  border: white;
+}
+.styling-buttons:hover {
+  background: rgb(191, 255, 249);
+}
+
+/*Styles the container for story, and game*/
+#whole-game {
+  display: flex;
+  height: 88vh;
+}
+#menu-container {
+  background-color: black;
+  height: 100%;
+  width: 0%;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+#menu{
+  color: white;
+  margin-top: 20px;
+}
+#day-of-week{
+  margin-top: 30px;
+}
+#characters{}
+#credits{
+  margin-top: 50px;
+}
+
+
+/*Styles the background of the story-container*/
+#story-container {
+  background-color: black;
+  height: 100%;
+  flex: 1;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+}
+/*Styles the background of the game-container*/
+#game-container {
+  background-color: rgb(92, 214, 92);
+  height: 100%;
+  flex: 1;
+  font-size: 1em;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+}
+
+#settings {
+  margin: 0;
+  width: 100vw;
+  height: auto;
+  margin-top: 0px;
+  background: rgb(19, 19, 140);
+  text-align: center;
+  border-radius: 10%;
+}
+#hide-show-settings {
+  height: 2vh;
+  width: auto;
+  object-fit: cover;
+  margin-top: 5px;
+  background: blue;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  margin-bottom: -5px;
+  padding: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+}
+/*Used to style the settings container*/
+#settings-container {
+  background-color: rgb(38, 50, 179);
+  border-radius: 15% 15% 0 0;
+  width: 100vw;
+  height: 14vh;
+  margin-top: 0px;
+  padding-top: 0;
+  color: rgb(197, 211, 200);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  font-size: 1.4em;
+}
+
+/* Used to style the container of the save and load buttons*/
+.save-load-buttons {
+  margin: 0;
+  margin-left: 3px;
+  cursor: pointer;
+  height: 35px;
+  width: 45px;
+}
+.save-load-container {
+  align-items: flex-start;
+  margin-right: -90px;
+}
+
+/*Hides the name of the uploaded file, used to load player settings*/
+input[type="file"] {
+  display: none;
+}
+/*Used to show that the load button is clickable*/
+#load-label {
+  cursor: pointer;
+}
+
+/*Used to fix the patreon Image relative to the whole window(might need to fix/change this).*/
+#patreon-image {
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: auto;
+  height: 25px;
+  width: 90px;
+}
+
+/* Added from the full BJ game */
+#dealerPicture {
+  margin-top: 10px;
+}
+
+#gamesContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.game {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dealerCardsContainer {
+  display: flex;
+  margin: 0 auto;
+}
+.dealerCards {
+}
+.dealerScore {
+}
+
+.playerCardsContainer {
+}
+.playerCards {
+}
+.playerScore {
+}
+.playerScoreContainer{
+  display: flex;
+  flex-direction: horizontal;
+}
+.emperorPointsButtonsContainer{
+  display: flex;
+  margin-left: 10px;
+}
+
+
+.EPupButton {
+  background: url("./images/Misc/upButton.png");
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  border: 0px;
+}
+.EPdownButton {
+  background: url("./images/Misc/downButton.png");
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  border: 0px;
+  margin-left: 3px;
+}
+
+.betContainer {
+}
+.bettedAmmount {
+}
+.bettedChips {
+  display: flex;
+}
+.chipRack {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.bettedAmmountText {
+}
+
+.buttonsContainer {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: auto auto;
+  font-size: 0.8;
+  border-radius: 50%;
+}
+
+#gameExplanationText {
+  color: white;
+}
+
+#bettedAmmountContainer {
+  display: flex;
+  justify-content: center;
+}
+#bettedAmmountText {
+  margin-right: 5px;
+}
+
+#playButton {
+  margin: 0 auto;
+  margin-top: 10px;
+  display: block;
+}
+
+.cards {
+  --cardsHeight: 110px;
+  height: var(--cardsHeight);
+  width: calc(var(--cardsWidth) * 1.5);
+  object-fit: cover;
+  display: inline-block;
+}
+
+.chip {
+  --chipsDiameter: 45px;
+  width: var(--chipsDiameter);
+  object-fit: cover;
+  margin-top: -55px;
+}
+
+/*Used to style speech container, and avatar of each character(needs to be fixed for smaller screen sizes).*/
+.speech {
+  height: 84px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 5px 5px 3px Black;
+  margin: 15px 5px;
+  display: block;
+  text-align: left;
+}
+.avatar {
+  display: block;
+  padding: 1px;
+  height: 84px;
+  width: 84px;
+  float: left;
+  margin: 0px 10px 0px 0px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-size: contain;
+}
+
+.You {
+  background-color: #333333;
+}
+.You .avatar {
+  background-image: URL("./images/profiles/you.jpg");
+  background-size: cover;
+}
+
+.randomGuy1 {
+  background-color: #2a9c2a;
+}
+.randomGuy1 .avatar {
+  background-image: URL("./images/profiles/randomguy1Profile.jpg");
+  background-size: cover;
+}
+
+.randomGuy2 {
+  background-color: #372282;
+}
+.randomGuy2 .avatar {
+  background-image: URL("./images/profiles/randomguy2Profile.jpg");
+  background-size: cover;
+}
+
+.randomGuy3 {
+  background-color: #1a5732;
+}
+.randomGuy3 .avatar {
+  background-image: URL("./images/profiles/randomguy4Profile.jpg");
+  background-size: cover;
+}
+
+.randomGuy4 {
+  background-color: #574f1a;
+}
+.randomGuy4 .avatar {
+  background-image: URL("./images/profiles/randomguy3Profile.jpg");
+  background-size: cover;
+}
+
+.Tricksy {
+  background-color: #9c1c88;
+}
+.Tricksy .avatar {
+  background-image: URL("./images/profiles/tricksyProfile.jpg");
+  background-size: cover;
+}
+
+/* STAND */
+#dealer-stand,
+#player-stand {
+  background: #ffdede;
+}
+
+/* CARDS */
+#dealer-cards,
+#player-cards {
+  background: white;
+  max-width: 80%;
+  margin: auto;
+}
+div.card {
+  font-size: 2em;
+  text-align: center;
+  border: 1px solid #aaa;
+  margin-bottom: 10px;
+}
+#dealer-first-b {
+  background: #f2f2f2;
+}
+
+#play-hit,
+#play-stand {
+  display: inline-block;
+}
+
+.redCards {
+  color: rgb(238, 23, 23);
+}
+
+/*Used to make a text blink*/
+.blink_me {
+  color: honeydew;
+  animation: blinker 3s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Used to individually style texts*/
+.colorPlayer {
+  color: rgb(157, 154, 154);
+}
+
+.colorLadyLuck {
+  color: aquamarine;
+}
+
+.colorTricksy {
+  color: #9c1c88;
+}
+
+.colorCarley {
+  color: rgb(230, 174, 70);
+}
+
+.colorRed {
+  color: rgb(238, 23, 23);
+}
+
+#hSrules {
+  height: 100%;
+}
+
+.hide-show-BJ-rules {
+  height: 20px;
+  width: 1.5vw;
+  object-fit: scale-down;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 4px;
+  margin-left: 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.4);
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  padding: 5px;
+}
+
+.hide-show-menu-container{
+  height: 15px;
+  width: 1.5vw;
+  object-fit: scale-down;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 4px;
+  margin-left: 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.4);
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  padding: 5px;
+}
+
+/*Used to make an item unselectable*/
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/*Used to hide an item*/
+.ninja {
+  display: none !important;
+}

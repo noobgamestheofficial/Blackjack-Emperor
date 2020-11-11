@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script defer src="code.js"></script>
+    <title>BlackJack Emperor</title>
+    <style>
+      /*to style the scrollbars*/
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 5px;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: white;
+        border-radius: 10px;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(193, 234, 236);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="whole-game">
+      <div id="menu-container">
+        <div id="menu">
+          <p>BlackJack</p>
+          <p>Emperor</p>
+          
+          <p id="day-of-week">Monday</p>
+          <p id="characters">characters</p>
+          <p id="credits">credits</p>
+        </div>
+        
+
+      </div>
+      <div id="hSmenu">
+        <img id="hide-show-menu-container" class="hide-show-menu-container unselectable" src="./images/Misc/leftButtonWhite.png">
+      </div>
+      <div id="story-container"></div>
+      <div id="hSrules">
+      <img id="hide-show-BJ-rules" class = "hide-show-BJ-rules unselectable" src="./images/Misc/leftButtonWhite.png">
+      </div>
+      <div id="game-container">
+        <center>
+      
+          <img id="dealerPicture" src="./images/Tricksy/2.jpg" />
+          <p id="dealerCashText">Dealer's Cash: $50</p>
+      
+          <div id="dealerCardsContainer">
+      
+            <p id="dealerScoreText">16</p>
+          </div>
+      
+          <br>
+      
+          <div id="gamesContainer">
+            <div id="game0" class="game">
+              <div class="playerCardsContainer">
+                <div class="playerCards">
+                  <img class="cards" src="./images/cards/2H.png" />
+                  <img class="cards" src="./images/cards/gray_back.png" />
+                </div>
+                <p class="playerScore">18</p>
+              </div>
+      
+              <div class="betContainer">
+                <div class="bettedChips">
+                  <div class="chipRack">
+      
+                  </div>
+                </div>
+                <p class="bettedAmmountText">$50</p>
+              </div>
+      
+              <div class="buttonsContainer">
+                <button class="hitButton">Hit</button>
+                <button class="standButton">Stand</button>
+                <button " class=" doubleDownButton">Double Down</button>
+                <button class="splitButton">Split</button>
+                <button class="surrenderButton">Surrender</button>
+                <button class="insuranceButton">Insurance</button>
+              </div>
+            </div>
+          </div>
+      
+          <div id="bettedAmmountContainer">
+            <input type="number" id="bettedAmmountInput" step="5" />
+          </div>
+          <p id="gameExplanationText" class="gameExplanationText"></p>
+          <button id="playButton">Play</button>
+      
+        </center>
+      </div>
+    </div>
+
+      
+
+    <div id = "settings" >
+      <img id="hide-show-settings"  src="./images/Misc/downButtonWhite.png">
+    <div id="settings-container" ></div>
+    </div>
+    
+    <a href="https://www.patreon.com/NoobGames18plus" target="_blank">
+    <img id="patreon-image" src="./images/Misc/patreonLogo1.png"/>
+    </a>
+  </body>
+</html>
