@@ -3,15 +3,107 @@ var storyContainer = document.getElementById("story-container"); //element that 
 var gameContainer = document.getElementById("game-container"); //element that contains our blackjackGame game
 var settingsContainer = document.getElementById("settings-container"); //element that contains save/load buttons, as well as player data
 var wholeGame = document.getElementById("whole-game");
+var extraInformationContainer = document.getElementById("extra-information-container")
+var extraInformation = document.getElementById("extra-information")
+
 
 var hideShowSettings = document.getElementById("hide-show-settings");
 var hideShowRules = document.getElementById("hide-show-BJ-rules");
 var hideMenuContainer = document.getElementById("hide-show-menu-container")
 
+var dayOfWeek = document.getElementById("day-of-week")
+var characters = document.getElementById("characters")
+var credits = document.getElementById("credits")
+var charactersView = document.getElementById("charactersView")
+var creditsView = document.getElementById("creditsView")
+
+
 hideShowRules.classList.add("ninja");
 var areSettingsShown = true;
 var areRulesShown = true;
 var isMenuShown = true;
+
+extraInformationContainer.addEventListener("click", (e) => {
+  if (e.target !== extraInformationContainer) return
+
+  extraInformationContainer.classList.add("ninja")
+})
+
+
+characters.addEventListener("click", () => {
+  if (extraInformationContainer.classList.contains("ninja")) {
+    //Instantiate the page with the necessary information
+
+    extraInformationContainer.classList.remove("ninja")
+    charactersView.classList.remove("ninja")
+    showCharactersView();
+  } else{
+    if(!creditsView.classList.contains("ninja")){
+      creditsView.classList.add("ninja");
+      charactersView.classList.remove("ninja")
+    showCharactersView();
+    } else {
+    extraInformationContainer.classList.add("ninja")
+    charactersView.classList.add("ninja")
+  }
+  }
+})
+
+credits.addEventListener("click", () => {
+  if (extraInformationContainer.classList.contains("ninja")) {
+    //Instantiate the page with the necessary information
+
+    extraInformationContainer.classList.remove("ninja")
+    creditsView.classList.remove("ninja")
+    showCreditsView();
+  } else{
+    if(!charactersView.classList.contains("ninja")){
+      charactersView.classList.add("ninja");
+      creditsView.classList.remove("ninja")
+      showCreditsView();
+    } else {
+      extraInformationContainer.classList.add("ninja")
+    creditsView.classList.add("ninja")
+    }
+    
+  }
+})
+
+var showCharactersView = function(){
+  charactersView.querySelectorAll("*").forEach((n) => n.remove());
+
+
+  for(var i = 0; i < charactersDescription.length; i++){
+    currentCharacter = charactersDescription[i];
+
+    var characterViewInstance = document.createElement("div");
+    characterViewInstance.classList.add("characterView");
+    var characterImageInstance = document.createElement("img");
+    characterImageInstance.classList.add("characterViewImage");
+    var characterNameInstance = document.createElement("p");
+    characterNameInstance.classList.add("characterViewName")
+    var characterDescriptionInstance = document.createElement("p");
+    characterDescriptionInstance.classList.add("characterViewDescription")
+
+    characterViewInstance.appendChild(characterImageInstance);
+    characterViewInstance.appendChild(characterNameInstance);
+    characterViewInstance.appendChild(characterDescriptionInstance);
+    charactersView.appendChild(characterViewInstance)
+
+    var activeDescription = currentCharacter.currentDescription;
+
+    characterNameInstance.innerHTML = currentCharacter.characterName;
+    characterDescriptionInstance.innerHTML = currentCharacter.description[activeDescription];
+    characterImageInstance.src = currentCharacter.picture[activeDescription];
+
+
+
+  }
+
+}
+
+var showCreditsView = function(){}
+
 
 
 hideShowSettings.addEventListener("click", () => {
@@ -61,6 +153,23 @@ var playerSettings = {
   emperorPoints: 0,
   pageArrivedAt: null,
 };
+
+var charactersDescription = [
+  {characterName: "LadyLuck" ,
+  characterId : 0,
+  currentDescription : 1,
+  description : {
+    0: "",
+    1: "first description of LadyLuck",
+    2: "second description of LadyLuck"
+  } ,
+  picture : {
+    0 : "",
+    1: "./images/Lady Luck/LadyLuck03.jpg"
+  }
+  
+  }
+]
 
 // pages of the story, each page has page contents, the type of each content is given by number
 // 0 for text

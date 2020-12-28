@@ -3,6 +3,10 @@ Changes made:
 -Re-added ability to use Emperor points.
 -Minor UI changes.
 
+Patreon insteads:
+GumRoad
+SubscribeStar
+BuyMeACoffea
 
 
 Things to do:

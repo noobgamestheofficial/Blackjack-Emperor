@@ -65,24 +65,106 @@ img {
 #menu-container {
   background-color: black;
   height: 100%;
-  width: 0%;
   overflow: scroll;
   overflow-x: hidden;
   padding-bottom: 10px;
   border-radius: 10px;
 }
-#menu{
+#menu {
   color: white;
   margin-top: 20px;
 }
-#day-of-week{
+#day-of-week {
   margin-top: 30px;
 }
-#characters{}
-#credits{
+#characters {
   margin-top: 50px;
 }
+#characters:hover {
+  color: beige;
+  cursor: pointer;
+}
+.characterView {
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1.5fr 1fr;
+  grid-template-areas:
+    "image name"
+    "image description";
+  column-gap: 5px;
+  row-gap: 5px;
+  margin: 10px;
+  padding: 10px;
+  background-color: cornsilk;
+}
+.characterViewImage {
+  grid-area: image;
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+}
+.characterViewName {
+  grid-area: name;
+  font-size: 30px;
+}
+.characterViewDescription {
+  grid-area: description;
+  font-size: 20px;
+}
+#credits {
+}
+#credits:hover {
+  color: beige;
+  cursor: pointer;
+}
+#creditsView {
+  overflow: auto;
+}
+.actorsView {
+}
+.actorView {
+  display: grid;
+  grid-template-areas: "image description description";
+}
+.actorImageInstance {
+  grid-area: image;
+}
+.actorDescriptionInstance {
+  grid-area: description;
+}
+#supportMeContainerCredits {
+  display: grid;
+  grid-template-areas: "support1 support2";
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#supportMeCoffeeCredits {
+  grid-area: support1;
+}
+#supportMeStarCredits {
+  grid-area: support2;
+}
 
+#extra-information-container {
+  background: rgba(255, 255, 255, 0.4);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+#extra-information {
+  background: white;
+  height: 75%;
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+
+  transform: translate(-50%, -50%);
+  overflow: auto;
+}
 
 /*Styles the background of the story-container*/
 #story-container {
@@ -166,14 +248,14 @@ input[type="file"] {
 }
 
 /*Used to fix the patreon Image relative to the whole window(might need to fix/change this).*/
-#patreon-image {
+#support-image {
   margin: 0;
   position: fixed;
   bottom: 0;
   left: 0;
   right: auto;
   height: 25px;
-  width: 90px;
+  width: 95px;
 }
 
 /* Added from the full BJ game */
@@ -206,15 +288,14 @@ input[type="file"] {
 }
 .playerScore {
 }
-.playerScoreContainer{
+.playerScoreContainer {
   display: flex;
   flex-direction: horizontal;
 }
-.emperorPointsButtonsContainer{
+.emperorPointsButtonsContainer {
   display: flex;
   margin-left: 10px;
 }
-
 
 .EPupButton {
   background: url("./images/Misc/upButton.png");
@@ -434,6 +515,9 @@ div.card {
 #hSrules {
   height: 100%;
 }
+#hSmenu {
+  z-index: 1;
+}
 
 .hide-show-BJ-rules {
   height: 20px;
@@ -453,7 +537,7 @@ div.card {
   padding: 5px;
 }
 
-.hide-show-menu-container{
+.hide-show-menu-container {
   height: 15px;
   width: 1.5vw;
   object-fit: scale-down;
